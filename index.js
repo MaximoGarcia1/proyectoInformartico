@@ -1,5 +1,5 @@
 require('dotenv').config()
-const app = require('../backend/src/app');
+const app = require('../backend/src/app.js');
 require('../backend/src/database');
 
 async function  main(){
